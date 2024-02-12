@@ -156,6 +156,47 @@ button{
     padding-right: 1rem;
 }
 
+#four{
+    align-items: center;
+}
+
+#four > .child-container{ 
+    display: flex;
+    background-color: #3882f6;
+    justify-content: space-around;
+    height: 12rem;
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+#four > .child-container > .box{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+}
+
+#four > .child-container > .box > .hero{
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#four > .child-container > .box > .hero-sec{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+#four > .child-container > .button-container{
+    display: flex;
+    align-items: center;
+}
+
+#four > .child-container > .button-container > button{
+    border: 3px solid #f9faf8;
+    scale: 1.2;
+}
+
 .container:nth-child(1){
     background-color: #1F2937;
 }
